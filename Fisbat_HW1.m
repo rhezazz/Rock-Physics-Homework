@@ -45,7 +45,7 @@ ylabel('depth (feet)');
 grid on;
 
 subplot(1,4,3)
-plot(rho,Depth,'m');
+plot(rho,Depth,'km');
 set (gca (), 'ydir', 'reverse')
 title('Depth vs rho');
 xlabel('density (gr/cc)')
